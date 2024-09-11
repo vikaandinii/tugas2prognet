@@ -70,8 +70,6 @@
             echo "<p>Total Tidak Lulus: {$tidak_lulus}</p>";
             ?>
         </div>
-
-        <a href="#" class="btn">Lihat Detail</a>
     </div>
 </body>
 </html>
