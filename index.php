@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar Kelulusan Siswa</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h1>Daftar Kelulusan Siswa</h1>
+        <h1>🎓 Daftar Kelulusan Siswa 🎓</h1>
 
         <div class="students">
             <?php
@@ -26,7 +26,7 @@
             foreach ($siswa as $data) {
                 $nama = $data['nama'];
                 $rata_rata = ($data['matematika'] + $data['bahasa_inggris'] + $data['ipa']) / 3;
-                $status = $rata_rata >= 75 ? "Lulus" : "Tidak Lulus";
+                $status = $rata_rata >= 75 ? "Lulus 🎉" : "Tidak Lulus 😢";
                 $kelas_status = $rata_rata >= 75 ? 'status lulus' : 'status tidak-lulus';
 
                 // Menentukan rekomendasi perbaikan apabila tidak lulus
@@ -66,8 +66,8 @@
                     $tidak_lulus++;
                 }
             }
-            echo "<p>Total Lulus: {$lulus}</p>";
-            echo "<p>Total Tidak Lulus: {$tidak_lulus}</p>";
+            echo "<p>Total Lulus: {$lulus} 🎉</p>";
+            echo "<p>Total Tidak Lulus: {$tidak_lulus} 😢</p>";
             ?>
         </div>
     </div>
