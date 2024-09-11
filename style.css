@@ -79,19 +79,3 @@ h1 {
     font-weight: bold;
     color: #6d28d9; 
 }
-
-.btn {
-    display: inline-block;
-    background-color: #6d28d9; 
-    color: #fff;
-    padding: 8px 18px; 
-    border-radius: 4px; 
-    text-decoration: none;
-    font-weight: 600;
-    margin-top: 15px;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #7f3bdc; 
-}
