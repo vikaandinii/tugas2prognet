@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>🎓 Daftar Kelulusan Siswa 🎓</h1>
+        <h1>🎓 Daftar Kelulusan Siswa Nih🎓</h1>
 
         <div class="students">
             <?php
